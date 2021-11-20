@@ -4,3 +4,7 @@ json
 gensim
 nltk
 pyLDAvis
+networkx
+seaborn
+wordcloud
+matplotlib
