@@ -128,19 +128,26 @@ Now, we plot the year wise publications count values
 
 
 
-################################
+##########################################
 Analysis of phd thesis data:
-The code  is located in dblp_pg.ipyb  
+Code  is located in dblp_pg.ipyb  
 Analysis is performed on phd thesis data present in dblp.xml file https://dblp.uni-trier.de/xml/ 
 tf-idf is used for vectorization of thesis titles
-K-means clustering is done on thesis titles to get related thesis titles.
+K-means clustering is done on thesis titles to get related thesis titles. 
+Optimal number of clusters is selected by elbow method
+World cloud is for frequently occurig words is generated and is printed in dblp_pg.ipyb file 
 Barplot is created in dblp_pg.ipyb file to show top 15 universities which have phd thesis data available in dblp.xml
+cluster0.csv, cluster1.csv, cluster2.csv,cluster3.csv, cluster4.csv contains phd thesis titles belonging to that cluster
 
-
-Software package used:
+Software packages used:
 matplotlib
 TfidfVectorizer (sklearn)
 Polyglot
 KMeans
 ###############################################
+
+###############################################
+Topic modelling of publication data
+
+
 
