@@ -63,7 +63,7 @@ we calculate the confidence as confidence=support(Y-X)/support(X) for the rule X
 the rules with confidence >= min confidence. 
 The association rules will be generated as an output in “association_rules.csv” file. 
 There will be 3 columns antecedent, consequent and confidence. More than 450 association rules 
-were generated with min support of 100/(total transactions) and min confidence of 0.55. 
+were generated with min support of 100/(total transactions) and min confidence of 0.7. 
 
 ###################################################
 
