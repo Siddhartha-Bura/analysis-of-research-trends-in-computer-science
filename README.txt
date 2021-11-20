@@ -1,4 +1,4 @@
-Analysis-of-Research-trends-in-Computer-Science
+ANALYSIS-OF-RESEARCH-TRENDS-IN-COMPUTER-SCIENCE
 
 ################################
 Analysis of DBLP:
