@@ -7,7 +7,7 @@ K-means clustering is done on thesis titles to get related thesis titles.<br>
 Barplot is created in dblp_pg.ipyb file to show top 15 universities which have phd thesis data available in dblp.xml<br>
 
 
-##############################################
+##############################################<br>
 Software package used:<br>
 matplotlib<br>
 TfidfVectorizer (sklearn)<br>
