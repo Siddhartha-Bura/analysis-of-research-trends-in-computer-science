@@ -8,3 +8,4 @@ networkx
 seaborn
 wordcloud
 matplotlib
+polyglot
