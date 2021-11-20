@@ -1,0 +1,47 @@
+The packages needed to run this project are:
+1) numpy
+2) matplotlib
+3) seaborn
+4) pandas
+5) networkx
+5) wordcloud
+
+Datasets required:
+	Download the dblpv13 data using this url:  "https://originalstatic.aminer.cn/misc/dblp.v13.7z" 
+After downloading it, extract it to get the dblpv13.json file. It is a 16GB JSON file. 
+
+Data Preprocessing:
+ In order to preprocess the data, first execute the preprocess1.ipynb. After executing this, you will get dblp.txt file as output. 
+ Next, execute the preprocess2.ipynb. After executing this, you will get data.txt as output. 
+
+Correlation:
+ In order to find the correlations, navigate into correlation folder and 
+ execute the correlation.ipynb file. Then, the output files that will be generated will be 
+ 1) Authors Correlation Matrix.png
+ 2) authors_correlation.csv
+ 3) title_words_correlation.csv
+ 4) Title Words COrrelation Matrix.png
+
+
+Co_Author Prediction:
+ In order to predict the co-authors, navigate into co_author_prediction folder and 
+ execute the Co-Author Prediction.ipynb file. Then, the output files that will be generated will be
+ 1) jacard_predictions.csv
+ 2) aac_predictions.csv
+
+Association Rules:
+ In order to obtain the association rules, navigate into association_rules folder and 
+ execute the fpgrowth.ipynb file. Then, the output file that is generated will be 
+ 1) association_rules.csv
+
+Analysis of DBLP data:
+ In order to analyse the DBLP data, navigate into association_rules folder and 
+ execute the analysis.dblp file. Then, the ouput files that will be generated will be
+ 1) author_years.png
+ 2) authors_wordcloud.png
+ 3) titlewords_wordcloud.png
+ 4) words_years.png
+ 5) authors_years.csv
+ 6) words_years.csv
+
+
