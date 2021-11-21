@@ -17,7 +17,7 @@ Moreover, output files which are text is saved in the same folder of the noteboo
 
 * Python notebooks in this project may take longer than expected(may take few hours 1-10) and also consume lots of memory, We request you to atleast use 
   i5 processor with RAM greater than 8 Gigs in order to have a smoother experience. It is recommended to have 16 Gigs if you are multitasking while
-  running the notebooks.
+  running the notebooks. For running the fpgrowth.ipynb, the recommended amount of RAM is 16GB. 
  
 * Re-run the entire notebook incase if you ran into memory issues. And kindly do not trigger more than one notebook at a time.
 
