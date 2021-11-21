@@ -149,6 +149,18 @@ KMeans
 ###############################################
 Topic modelling of publication data
 Code is present in dm_proj_trends.ipynb
+Analysis is performed on Citation Network Dataset https://www.aminer.org/citation
+Data (title+keywords+field of study+abstract) is extracted for all the research publications
+Data is preprocessed using tokenization,stemming,vectorization(tf-idf).
+LDA(Latent Dirichlet allocation) is performed on the data for topic modelling
+Topics,Topic clusters,Frequently occuring words are  obtained as result.
+Topic modelling is done for research data from 1961-1981 and 1981-2021
+
+Software packages used:
+gensim
+nltk
+pyLDAvis
+###################################################
 
 
 
