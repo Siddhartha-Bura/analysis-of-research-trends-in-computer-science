@@ -6,6 +6,10 @@ https://dblp.uni-trier.de/xml/dblp.xml.gz.
 
 Extract the above input files (if extractable) and place in the same directory of the ipynb files wherever requried.
 
+Place the dblpv13.json file that you get after extraction in  "/Analysis_Association_Correlation_Prediction/correlation/" folder if you want to execute 
+association, analysis of dblp, correlation, prediction. And first run the preprocessing1.ipynb and then preprocessing2.ipynb first to obtain the dblp.txt and data.txt files. 
+
+
 Since, the files sizes are huge, we haven't placed the input files in the project.
 Moreover, output files which are text is saved in the same folder of the notebook.
 
@@ -18,7 +22,7 @@ Moreover, output files which are text is saved in the same folder of the noteboo
 * Since the notebooks take much longer to execute, there is not any top level script included to execute all the notebooks at once.
   
 * Some of the outputs which are plots or graphs, to observe them, you need to get from the notebook cells itself.
-  We don't save plots as images to separate folder.
+  
 
 >>>>To execute the notebook related to YEAR WISE DISTRIBUTION OF PUBLICATIONS/CONFERENCES
 	Execute "year_wise.ipynb"
@@ -31,12 +35,29 @@ Moreover, output files which are text is saved in the same folder of the noteboo
 	
 >>>>To execute the notebook related to Correlation
 	Head over to "/Analysis_Association_Correlation_Prediction/correlation/" folder and then execute "correlation.ipynb"
-	
+	Then, the output files that will be generated will be 
+		 1) Authors Correlation Matrix.png
+		 2) authors_correlation.csv
+		 3) title_words_correlation.csv
+		 4) Title Words COrrelation Matrix.png
+
 >>>>To execute the notebook related to Co_Author Prediction
 	Head over to "/Analysis_Association_Correlation_Prediction/co_author_prediction/" folder and then execute "Co-Author Prediction.ipynb"
+	Then, the output files that will be generated will be
+		 1) jacard_predictions.csv
+		 2) aac_predictions.csv
 	
 >>>>To execute the notebook related to Association Rules
 	Head over to "/Analysis_Association_Correlation_Prediction/association_rules/" folder and then execute "fpgrowth.ipynb"
+	Then, the output file that is generated will be 
+ 		1) association_rules.csv
 	
 >>>>To execute the notebook related to Analysis of DBLP
 	Head over to "/Analysis_Association_Correlation_Prediction/analysis_of_dblp/" folder and then execute "analysis.ipynb"
+	Then, the ouput files that will be generated will be
+		 1) author_years.png
+		 2) authors_wordcloud.png
+		 3) titlewords_wordcloud.png
+		 4) words_years.png
+		 5) authors_years.csv
+		 6) words_years.csv
