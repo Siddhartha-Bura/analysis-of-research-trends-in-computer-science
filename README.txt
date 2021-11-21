@@ -56,7 +56,7 @@ the set of common elements in the paths in Conditional Pattern Base and we calcu
 count and take the ones with at least min support. 
 7) We now generate the frequent pattern rules by pairing items of conditional frequent 
 pattern tree with its corresponding item. 
-8) We will assign a min confidence parameter. We set min confidence as 0.55 in the project. 
+8) We will assign a min confidence parameter. We set min confidence as 0.7 in the project. 
 We now generate strong association rules from the frequent patterns. For example, 
 if Y is a frequent pattern set, then we generate all possible non empty subsets from Y and for each subset X, 
 we calculate the confidence as confidence=support(Y-X)/support(X) for the rule X=>(Y-X). We consider only 
