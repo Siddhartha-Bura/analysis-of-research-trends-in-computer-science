@@ -63,3 +63,8 @@ Moreover, output files which are text is saved in the same folder of the noteboo
 		 4) words_years.png
 		 5) authors_years.csv
 		 6) words_years.csv
+	
+>>>>To execute the notebook related to Geographical trends
+	Execute "geo_trends.py"
+	Then, the ouput file that will be generated will be
+		 1) geo_trends.csv
