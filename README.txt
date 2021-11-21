@@ -130,7 +130,7 @@ Now, we plot the year wise publications count values
 
 ##########################################
 Analysis of phd thesis data:
-Code  is located in thesis-analysis/dblp_pg.ipyb  
+Code  is located in thesis-analysis/dblp_pg.ipynb  
 Analysis is performed on phd thesis data present in dblp.xml file https://dblp.uni-trier.de/xml/ 
 tf-idf is used for vectorization of thesis titles
 K-means clustering is done on thesis titles to get related thesis titles. 
