@@ -26,6 +26,8 @@ Moreover, output files which are text is saved in the same folder of the noteboo
 
 >>>>To execute the notebook related to YEAR WISE DISTRIBUTION OF PUBLICATIONS/CONFERENCES
 	Execute "year_wise.ipynb"
+	Then, the ouput files that will be generated will be
+		 1) yearwise.png
 
 >>>>To execute the notebook related to Topic modelling of publication data
 	Execute "dm_proj_trends.ipynb"
