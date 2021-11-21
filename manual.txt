@@ -2,7 +2,9 @@
 
 First things first, make sure you download the following input files,
 https://originalstatic.aminer.cn/misc/dblp.v13.7z,
-https://dblp.uni-trier.de/xml/dblp.xml.gz.
+https://dblp.uni-trier.de/xml/dblp.xml.gz,
+https://www.kaggle.com/tanuprabhu/population-by-country-2020,
+https://pkgstore.datahub.io/core/country-list/data_csv/data/d7c9d7cfb42cb69f4422dec222dbbaa8/data_csv.csv.
 
 Extract the above input files (if extractable) and place in the same directory of the ipynb files wherever requried.
 
