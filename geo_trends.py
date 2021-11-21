@@ -10,7 +10,7 @@ import os
 from scipy import stats
 
 
-country = pd.read_excel('countriesss.xlsx')
+country = pd.read_excel('country_names.xlsx')
 country['Name']=country['Name'].str.lower()
 country['Name']=np.where((country['Name']=='india') | (country['Name']=='russia'), country['Name'], country['Name']+' ')
 country['Name']=' '+country['Name']
