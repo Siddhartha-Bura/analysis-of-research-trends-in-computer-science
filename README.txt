@@ -125,6 +125,7 @@ Since, every year in any line corresponds to exactly one publication, we take ad
 our count whenever we encounter one occurance of an year.
 After completing reading the entire file, we now have data for all the years.
 Now, we plot the year wise publications count values 
+Output file is saved as "yearwise.jpeg"
 
 
 
