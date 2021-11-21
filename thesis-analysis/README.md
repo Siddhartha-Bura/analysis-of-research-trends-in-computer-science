@@ -1,6 +1,6 @@
 ################################<br>
 Analysis of DBLP:<br>
-The code  is located in dblp_pg.ipyb  <br>
+The code  is located in dblp_pg.ipynb  <br>
 Analysis is performed on phd thesis data present in dblp.xml file https://dblp.uni-trier.de/xml/ <br>
 tf-idf is used for vectorization of thesis titles<br>
 K-means clustering is done on thesis titles to get related thesis titles.<br>
