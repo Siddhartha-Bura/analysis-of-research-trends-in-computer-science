@@ -168,5 +168,12 @@ Geographical Trends in Research Publications
 The code is located in python file geo_trends.py and uses the following file as source data.
  1) dblpv13.json 
  2) country_names.csv
-The attribution of a publication to any geography has been done on the basis of its authors' origins. There is no explicit information about the author's resident country in the raw data but both json and xml files have attributes for author's organisation given as 'org' and <school> respectively. In majority of the cases the country is also mentioned. The xml has this attribute for only 1\% of the entire publication data whereas it was available for 60\% of the authors in the json file. Finally, we used the 16 GB json file in order to retrieve the country information. We also used another file containing all the countries names for string matching. We were able to extract year wise publication data  and number of citations for all countries using the code and the final output is in geo_trends.csv.
+The attribution of a publication to any geography has been done on the basis of its authors' origins.
+There is no explicit information about the author's resident country in the raw data but both json and 
+xml files have attributes for author's organisation given as 'org' and <school> respectively. In majority
+of the cases the country is also mentioned. The xml has this attribute for only 1\% of the entire
+publication data whereas it was available for 60\% of the authors in the json file. Finally, we used the 
+16 GB json file in order to retrieve the country information. We also used another file containing all the
+countries names for string matching. We were able to extract year wise publication data  and number of 
+citations for all countries using the code and the final output is in geo_trends.csv.
 
